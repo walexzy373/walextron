@@ -23,9 +23,7 @@ body {
 }
 
 
-/* =========================
-   NAVBAR
-========================= */
+/* NAVBAR */
 
 .navbar {
     position: fixed;
@@ -43,7 +41,7 @@ body {
 
     align-items: center;
 
-    background: rgba(247, 245, 239, 0.9);
+    background: rgba(247, 245, 239, 0.92);
 
     backdrop-filter: blur(14px);
 
@@ -95,9 +93,7 @@ nav a:hover {
 }
 
 
-/* =========================
-   HERO
-========================= */
+/* HERO */
 
 .hero {
     min-height: 100vh;
@@ -152,8 +148,6 @@ nav a:hover {
 }
 
 
-/* BRAND NAME */
-
 .brand-name {
     font-family:
         Arial Black,
@@ -181,8 +175,6 @@ nav a:hover {
 }
 
 
-/* BADGE */
-
 .badge {
     display: inline-block;
 
@@ -203,8 +195,6 @@ nav a:hover {
     letter-spacing: 1px;
 }
 
-
-/* HERO HEADING */
 
 .hero h1 {
     font-size: clamp(48px, 7vw, 86px);
@@ -233,9 +223,7 @@ nav a:hover {
 }
 
 
-/* =========================
-   BUTTONS
-========================= */
+/* BUTTONS */
 
 .hero-buttons {
     display: flex;
@@ -295,9 +283,7 @@ nav a:hover {
 }
 
 
-/* =========================
-   HERO VISUAL
-========================= */
+/* HERO VISUAL */
 
 .hero-visual {
     width: 360px;
@@ -410,9 +396,7 @@ nav a:hover {
 }
 
 
-/* =========================
-   SECTIONS
-========================= */
+/* SECTIONS */
 
 .section {
     max-width: 1200px;
@@ -469,9 +453,7 @@ nav a:hover {
 }
 
 
-/* =========================
-   ABOUT
-========================= */
+/* ABOUT */
 
 #about {
     display: grid;
@@ -496,9 +478,7 @@ nav a:hover {
 }
 
 
-/* =========================
-   SKILLS
-========================= */
+/* SKILLS */
 
 .skill-grid {
     max-width: 1200px;
@@ -508,7 +488,7 @@ nav a:hover {
     display: grid;
 
     grid-template-columns:
-        repeat(3, 1fr);
+        repeat(2, 1fr);
 
     gap: 20px;
 }
@@ -559,9 +539,7 @@ nav a:hover {
 }
 
 
-/* =========================
-   PROJECTS
-========================= */
+/* EXPERIENCE */
 
 .project-list {
     margin-top: 55px;
@@ -620,9 +598,7 @@ nav a:hover {
 }
 
 
-/* =========================
-   JOURNEY
-========================= */
+/* JOURNEY */
 
 .journey {
     background: #101a2b;
@@ -658,9 +634,7 @@ nav a:hover {
 }
 
 
-/* =========================
-   CONTACT
-========================= */
+/* CONTACT */
 
 .contact {
     text-align: center;
@@ -723,9 +697,7 @@ nav a:hover {
 }
 
 
-/* =========================
-   FOOTER
-========================= */
+/* FOOTER */
 
 footer {
     padding: 30px 7%;
@@ -749,9 +721,7 @@ footer strong {
 }
 
 
-/* =========================
-   ANIMATIONS
-========================= */
+/* ANIMATIONS */
 
 @keyframes fadeUp {
 
@@ -786,12 +756,9 @@ footer strong {
 }
 
 
-/* =========================
-   MOBILE
-========================= */
+/* MOBILE */
 
 @media (max-width: 850px) {
-
 
     .navbar {
         padding: 18px 6%;
