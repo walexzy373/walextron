@@ -1,13 +1,34 @@
-// =============================
 // WALEXTRON
-// =============================
-
-console.log("WALEXTRON is online.");
+// Simple website interactions
 
 
-// =============================
-// SCROLL REVEAL
-// =============================
+console.log("WALEXTRON website loaded.");
+
+
+// Smooth navigation logging
+
+const navLinks =
+    document.querySelectorAll("nav a");
+
+
+navLinks.forEach(function(link) {
+
+    link.addEventListener(
+        "click",
+        function() {
+
+            console.log(
+                "Opening " +
+                link.textContent
+            );
+
+        }
+    );
+
+});
+
+
+// Scroll reveal
 
 const sections =
     document.querySelectorAll(".section");
@@ -54,33 +75,6 @@ sections.forEach(
             "opacity 0.8s ease, transform 0.8s ease";
 
         observer.observe(section);
-
-    }
-);
-
-
-// =============================
-// NAVIGATION
-// =============================
-
-const navLinks =
-    document.querySelectorAll("nav a");
-
-
-navLinks.forEach(
-    function(link) {
-
-        link.addEventListener(
-            "click",
-            function() {
-
-                console.log(
-                    "Navigating to " +
-                    link.textContent
-                );
-
-            }
-        );
 
     }
 );
