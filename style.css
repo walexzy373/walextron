@@ -756,6 +756,50 @@ footer strong {
 }
 
 
+/* DESKTOP */
+
+@media (min-width: 851px) {
+
+    .hero {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        text-align: left;
+        gap: 60px;
+        min-height: 100vh;
+    }
+
+    .hero-content {
+        max-width: 680px;
+        align-items: flex-start;
+    }
+
+    .brand-name {
+        font-size: 42px;
+        font-weight: 900;
+        letter-spacing: 4px;
+    }
+
+    .hero-visual {
+        width: 360px;
+        height: 360px;
+        flex-shrink: 0;
+    }
+
+    .profile-image {
+        width: 160px;
+        height: 160px;
+        object-fit: cover;
+        border-radius: 50%;
+        display: block;
+        margin-bottom: 20px;
+        border: 3px solid #287cff;
+    }
+
+}
+
+
 /* MOBILE */
 
 @media (max-width: 850px) {
@@ -764,11 +808,9 @@ footer strong {
         padding: 18px 6%;
     }
 
-
     nav {
         display: none;
     }
-
 
     .hero {
         padding: 130px 7% 80px;
@@ -780,7 +822,6 @@ footer strong {
         justify-content: center;
     }
 
-
     .hero-content {
         display: flex;
 
@@ -789,18 +830,15 @@ footer strong {
         align-items: center;
     }
 
-
     .brand-name {
         font-size: 32px;
 
         letter-spacing: 3px;
     }
 
-
     .hero h1 {
         letter-spacing: -2px;
     }
-
 
     .hero-description {
         margin-left: auto;
@@ -808,11 +846,9 @@ footer strong {
         margin-right: auto;
     }
 
-
     .hero-buttons {
         justify-content: center;
     }
-
 
     .hero-visual {
         width: 300px;
@@ -820,11 +856,9 @@ footer strong {
         height: 300px;
     }
 
-
     .tech-card {
         width: 260px;
     }
-
 
     #about {
         grid-template-columns: 1fr;
@@ -832,11 +866,9 @@ footer strong {
         gap: 40px;
     }
 
-
     .skill-grid {
         grid-template-columns: 1fr;
     }
-
 
     .journey {
         padding-left: 7%;
@@ -844,12 +876,9 @@ footer strong {
         padding-right: 7%;
     }
 
-
     .project-card {
-        grid-template-columns:
-            50px 1fr;
+        grid-template-columns: 50px 1fr;
     }
-
 
     footer {
         flex-direction: column;
@@ -858,14 +887,69 @@ footer strong {
 
         text-align: center;
     }
-    
-.profile-image {
-    width: 160px;
-    height: 160px;
-    object-fit: cover;
-    border-radius: 50%;
-    display: block;
-    margin-bottom: 20px;
-    border: 3px solid #287cff;
+
+    .profile-image {
+        width: 160px;
+        height: 160px;
+        object-fit: cover;
+        border-radius: 50%;
+        display: block;
+        margin-bottom: 20px;
+        border: 3px solid #287cff;
+    }
 
 }
+
+
+/* SMALL PHONES */
+
+@media (max-width: 480px) {
+
+    .hero {
+        padding-top: 115px;
+    }
+
+    .brand-name {
+        font-size: 28px;
+    }
+
+    .hero h1 {
+        font-size: 44px;
+    }
+
+    .hero-description {
+        font-size: 15px;
+    }
+
+    .hero-visual {
+        width: 270px;
+        height: 270px;
+    }
+
+    .tech-card {
+        width: 235px;
+    }
+
+    .section {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+
+    .section-heading h2 {
+        font-size: 42px;
+    }
+
+    .skill-card {
+        padding: 26px;
+    }
+
+    .project-card {
+        grid-template-columns: 35px 1fr;
+        gap: 15px;
+    }
+
+    .project-card h3 {
+        font-size: 25px;
+    }
+
+    }
